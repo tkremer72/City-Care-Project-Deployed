@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "root",
+    "password": "Password1!",
+    "database": "city-care-development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+      "timestamps": false
+    },
+    "operatorsAliases": false
+
+
+  },
+  "test": {
+    "username": "root",
+    "password": "Password1!",
+    "database": "city-care-test",
+    "host": "127.0.0.1",
+    "dialect": "mysql", "define": {
+      "timestamps": false
+    },
+    "operatorsAliases": false
+  },
+  "production": {
+    "username": "admin",
+    "password": "Password1!",
+    "database": "CityCareDatabase",
+    "host": "database-city-care.cvdkwwll47dt.us-east-2.rds.amazonaws.com",
+    "dialect": "mysql",
+    "define": {
+      "timestamps": false
+    },
+    "operatorsAliases": false
+  }
+}
